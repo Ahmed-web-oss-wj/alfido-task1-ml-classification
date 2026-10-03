@@ -19,13 +19,16 @@ Five-fold stratified cross-validation was run on the training set for every mode
 ## Project structure
 
 ```
-task1-ml-classification/
+alfido-task1-ml-classification/
 ├── ml_classification.ipynb     # full analysis with outputs
+├── Task1_Report.pdf / .docx    # written report
 ├── results_test_metrics.csv    # final test-set metrics
-├── images/                     # saved plots used in the report
+├── 01_...png to 05_...png      # saved plots used in the report
 ├── requirements.txt            # pinned package versions
 └── README.md
 ```
+
+Running the notebook creates an `images/` folder and saves fresh copies of the plots there.
 
 ## Environment setup
 
